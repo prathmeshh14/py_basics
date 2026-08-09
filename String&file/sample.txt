@@ -1,0 +1,7 @@
+listen
+apple
+silent
+banana
+enlist
+pale
+leap
