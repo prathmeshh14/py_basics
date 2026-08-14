@@ -2,7 +2,7 @@ import re
 from unittest import case
 lst=[]
 def add_contact():
-    email_pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+    email_pattern = r"^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
     while True:
         name=input("Name:")
         phone=input("Phone:")
